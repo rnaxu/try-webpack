@@ -1,0 +1,28 @@
+{
+  "name": "try-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors",
+    "dev": "webpack-dev-server --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnaxu/try-webpack.git"
+  },
+  "author": "rnaxu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnaxu/try-webpack/issues"
+  },
+  "homepage": "https://github.com/rnaxu/try-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
